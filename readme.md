@@ -1,7 +1,7 @@
 
 # STELLA GO TCP SERVER
 
-This is a simple event driven concurrent low level tcp server library in early stage of development and it's not ready for production yet
+This is a simple event driven low level tcp server library in early stage of development and it's not ready for production yet
 
 
 currently only populates handler after connection finish
