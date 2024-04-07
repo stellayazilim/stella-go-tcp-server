@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/stellayazilim/StellaTCP/internal/server"
+	"github.com/stellayazilim/StellaTCP/pkg/server"
 )
 
 func main() {
@@ -11,7 +11,7 @@ func main() {
 
 	s.Handle("add-token", func(socket *server.Socket) {
 
-		fmt.Println("socket connected:", socket.ReadAsString())
+		fmt.Println("data received:", socket.ReadAsString())
 
 	})
 
